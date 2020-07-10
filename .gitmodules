@@ -1,0 +1,3 @@
+[submodule "cardiacrehab"]
+	path = cardiacrehab
+	url = https://github.com/edwaarrdd/cardiacrehab
