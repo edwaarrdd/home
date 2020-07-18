@@ -12,8 +12,8 @@ masthead_title: "Eddy's Site"
 author:
   name: "Edward Xu"
   avatar: "/assets/images/me.jpg"
-  bio: "Learning | Programming | Climbing | Travelling"
-  location: "Melb, AUS"
+  bio: "Learn, Program, Climb, Travel"
+  location: "Melbourne, AUS"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
