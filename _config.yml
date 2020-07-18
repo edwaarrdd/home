@@ -15,7 +15,7 @@ author:
   bio: "Learning, Programming, Climbing"
   location: "Melb, AUS"
 include: ["_pages"]
-
+github: [metadata]
 
 defaults:
   # _pages
@@ -25,3 +25,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+  
