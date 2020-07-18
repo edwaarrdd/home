@@ -5,15 +5,22 @@ plugins:
 locale: "en-GB"
 title: "Edward Xu"
 title_separator: "|"
-url: ""
+url: "https://edwardx.com"
 logo: ""
 repository: "edwaarrdd/home"
 masthead_title: "Eddy's Site"
 author:
   name: "Edward Xu"
   avatar: "/assets/images/me.jpg"
-  bio: "Learning, Programming, Climbing"
+  bio: "Learning | Programming | Climbing | Travelling"
   location: "Melb, AUS"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://edwardx/com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/edwaarrdd"
 include: ["_pages"]
 github: [metadata]
 
@@ -25,4 +32,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-  
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: true
