@@ -7,6 +7,7 @@ title: "Edward Xu"
 title_separator: "|"
 url: ""
 logo: ""
+repository: "edwaarrdd/home"
 masthead_title: "Eddy's Site"
 author:
   name: "Edward Xu"
@@ -14,6 +15,7 @@ author:
   bio: "Learning, Programming, Climbing"
   location: "Melb, AUS"
 include: ["_pages"]
+
 
 defaults:
   # _pages
