@@ -262,7 +262,7 @@ DEPENDENCIES
   github-pages (~> 206)
   jekyll-include-cache
   nokogiri
-  rack
+  rack (~> 2.1.4)
   rspec
 
 BUNDLED WITH

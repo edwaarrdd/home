@@ -5,10 +5,24 @@ plugins:
 locale: "en-GB"
 title: "Edward Xu"
 title_separator: "|"
-url: "https://edwardx.com"
+url: ""
 logo: ""
+masthead_title: "Eddy's Site"
 author:
   name: "Edward Xu"
   avatar: "/assets/images/me.jpg"
-  bio: "Programming, Climbing"
+  bio: "Learning, Programming, Climbing"
   location: "Melb, AUS"
+include: ["_pages"]
+breadcrumbs: true
+  breadcrumb_home_label: "Home"
+  breadcrumb_separator: "/"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true

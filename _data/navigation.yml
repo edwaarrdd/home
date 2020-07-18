@@ -1,0 +1,11 @@
+main:
+  - title: "about"
+    url: /about/
+  - title: "blog"
+    url: /blog/
+  - title: "learning"
+    url: /journeys/
+  - title: "programming"
+    url: /projects/
+  - title: "climbing"
+    url: /climbing/
