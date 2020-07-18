@@ -14,9 +14,6 @@ author:
   bio: "Learning, Programming, Climbing"
   location: "Melb, AUS"
 include: ["_pages"]
-breadcrumbs: true
-  breadcrumb_home_label: "Home"
-  breadcrumb_separator: "/"
 
 defaults:
   # _pages
