@@ -1,3 +1,12 @@
 ---
-layout: splash
+title: Climbing
+layout: collection
+permalink: /climbing/
+collection: climbing
 ---
+
+{% for item in site.climbing %}
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+{% endfor %}

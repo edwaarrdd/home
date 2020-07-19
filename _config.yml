@@ -12,7 +12,7 @@ masthead_title: "Eddy's Site"
 author:
   name: "Edward Xu"
   avatar: "/assets/images/me.jpg"
-  bio: "Learn, Program, Climb, Travel"
+  bio: "Life is a marathon, not a race"
   location: "Melbourne, AUS"
   links:
     - label: "Website"
@@ -21,7 +21,8 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/edwaarrdd"
-include: ["_pages"]
+include:
+  - _pages
 github: [metadata]
 
 defaults:

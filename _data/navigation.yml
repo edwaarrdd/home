@@ -2,12 +2,42 @@ main:
   - title: "about"
     url: /about/
   - title: "blog"
-    url: /blog/
-  - title: "learning"
-    url: /journeys/
-  - title: "programming"
+    url: /
+  # - title: "journeys"
+  #   url: /journeys/
+  - title: "projects"
     url: /projects/
-  - title: "climbing"
-    url: /climbing/
-  - title: "travel"
-    url: /travel/
+  # - title: "climbing"
+  #   url: /climbing/
+  # - title: "travel + food"
+  #   url: /travel/
+
+
+svhm:
+  - title: Request
+    children:
+      - title: "Pathology"
+        url: /
+      - title: "TTE"
+        url: /
+      - title: "Stress ECG/Echo"
+        url: /
+      - title: "Respiratory Function Test"
+        url: /
+      - title: "EEG/Nerve"
+  - title:
+    children:
+      - title: "Discharge Summary List"
+        url: /
+  - title: Resources
+    children:
+      - title: "eTG"
+        url: https://tgldcdp.tg.org.au.acs.hcn.com.au/etgAccess
+      - title: "UpToDate"
+        url: http://www.uptodate.com/
+      - title: "PBS"
+        url: http://www.pbs.gov.au/
+  - title: Workforce
+    children:
+      - title: "Overtime Form"
+        url: /

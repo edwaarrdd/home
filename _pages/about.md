@@ -1,8 +1,12 @@
 ---
+title: About Me
 layout: single
 permalink: /about/
 ---
+### Welcome to my site
 
-Hi, my name is Edward and I am from Melbourne, Australia. 
+Hi, I'm Edward! I am 22 years old and a self-taught programmer.
 
-Thank you for visiting my website!
+I love learning new things, and created this website to share my journey.
+
+Outside of programming, my other interests are bouldering and eating. 
