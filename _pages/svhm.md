@@ -79,6 +79,47 @@ toc_sticky: true
 | [Allied Health/ACAS/GEM/Rehab](http://business.svhm.schs.org.au/clinical/patientjourneyboard) | Add eConsult via Patient Journey Board |
 | SVHM Outpatient Clinic Referral | Paper: Red 'Consultation Referral' form |
 
+### External Medical Records
+
+| Hospital | Phone Number | Fax Number |
+| --- | --- | --- |
+| Alfred | 9067 2644 | 9076 2424 |
+| Angliss |  | 9871 3357 |
+| Austin | 9496 5447 | 9458 4557 |
+| Ballarat | 5320 4227 | 5320 4829 |
+| Bairnsdale Health | 5150 3387 | 5320 4829 |
+| Barwon Health | 4215 1170 | 4215 1242 |
+| Bendigo | 5454 8312 | 5454 8314 | 
+| Box Hill | 9871 3655 <br> 9981 2790 [*alt*] | 9871 3357 <br> 9895 3268 [*alt*] |
+| Cabrini | 9508 1222 | 9508 1596 |
+| Casey | 8768 1371 | 9594 6227 |
+| Dandenong | 9594 2112 | 9594 6227 |
+| Epworth | 9426 6570 | 9429 9075 |
+| Frankston | 9784 7446 | 9748 7818 |
+| Freemasons | 9483 3690 | 9483 3350 |
+| Hamilton Base | 5551 8311 | 5551 8240 |
+| John Fawkner | 9385 2451 <br> 9385 2400 [*alt*] | 9385 2188 |
+| Knox | 9210 7070 | 9210 7073 |
+| La Trobe Regional |  | 5173 8100 |
+| Maroondah | 9871 3655 <br> 9981 2790 [*alt*] | 9871 3357 <br> 9895 3268 [*alt*] |
+| Melbourne Private | 8341 3400 | 8341 3478 |
+| Mercy - Werribee | 8754 3600 | 8754 3601 |
+| Mercy - Womens |  | 8458 4128 |
+| Werribee Psych | 9928 7483 | 9928 7444 |
+| Monash | 9594 2112 | 9594 6227 |
+| Northern | 8405 8180 | 8405 8007 <br> 8405 8098/8633 [*alt*] |
+| Peter Mac | 8559 7400 | 8559 7335 <br> 8559 5008 [*alt*] |
+| Royal Children's | 9345 6107 | 9345 6589 |
+| Royal Melbourne | 9342 7359 <br> 9342 7780 [*alt*] | 9342 8008 <br> 9342 4666 [*alt*] |
+| Royal Women's | 8345 2600 | 8345 2623 |
+| RVEEH | 9929 8230 | 9929 8228 |
+| Sandringham | 9076 1249 | 9076 1507 |
+| SVPH/Mercy | 9411 7695 | 9419 6852 |
+| Wangaratta | 5722 5111 | 5721 2030 |
+| Warrnambool Base | 5563 1666 | 5563 1463 |
+| Western - Sunshine | 8345 6353 | 8345 1648 |
+| Western - Footscray | 8345 6353 | 8345 6337 |
+
 
 ## By Unit
 
