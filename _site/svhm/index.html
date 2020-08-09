@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>SVHM Directory | Edward Xu</title>
+<!-- begin _includes/seo.html --><title>SVHM Directory (BETA) | Edward Xu</title>
 <meta name="description" content="">
 
 
@@ -19,7 +19,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_GB">
 <meta property="og:site_name" content="Edward Xu">
-<meta property="og:title" content="SVHM Directory">
+<meta property="og:title" content="SVHM Directory (BETA)">
 <meta property="og:url" content="http://localhost:4000/svhm/">
 
 
@@ -123,8 +123,6 @@
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/about/">about</a>
             </li><li class="masthead__menu-item">
-              <a href="/">blog</a>
-            </li><li class="masthead__menu-item">
               <a href="/projects/">projects</a>
             </li></ul>
         
@@ -166,21 +164,23 @@
     
       <li>
         
-          <span class="nav__sub-title">Request</span>
+          <span class="nav__sub-title">General</span>
         
 
         
         <ul>
           
-            <li><a href="/">Pathology</a></li>
+            <li><a href="http://pas.intra.svhm.org.au/">PAS</a></li>
           
-            <li><a href="/">TTE</a></li>
+            <li><a href="http://svhm-results/cis/cis.dll">CIS</a></li>
           
-            <li><a href="/">Stress ECG/Echo</a></li>
+            <li><a href="https://delacy-svhm-prod.svha.org.au/ehs/ehsServlet">deLacy</a></li>
           
-            <li><a href="/">Respiratory Function Test</a></li>
+            <li><a href="http://sdc-prosolv/prosolv/">ProSolv</a></li>
           
-            <li><a href="">EEG/Nerve</a></li>
+            <li><a href="http://mro.svhm.schs.org.au/udr/login/login.jsp">MRO</a></li>
+          
+            <li><a href="http://business.svhm.schs.org.au/clinical/patientjourneyboard">Patient Journeyboard</a></li>
           
         </ul>
         
@@ -194,7 +194,9 @@
         
         <ul>
           
-            <li><a href="/">Discharge Summary List</a></li>
+            <li><a href="https://svhm-paging/login.asp">Spok Paging</a></li>
+          
+            <li><a href="http://svhm-dsu.svhm.schs.org.au/reportserver?/PAS_Documents_Reporting/OutstandingDocuments_Extract&rs:Command=Render&rs:ClearSession=true">Discharge Summary List</a></li>
           
         </ul>
         
@@ -208,9 +210,15 @@
         
         <ul>
           
-            <li><a href="https://tgldcdp.tg.org.au.acs.hcn.com.au/etgAccess">eTG</a></li>
+            <li><a href="https://www2.health.vic.gov.au/clinicianshealthchannel">Clinicians' Health Channel</a></li>
           
             <li><a href="http://www.uptodate.com/">UpToDate</a></li>
+          
+            <li><a href="https://tgldcdp.tg.org.au.acs.hcn.com.au/etgAccess">eTG</a></li>
+          
+            <li><a href="https://amhonline.amh.net.au.acs.hcn.com.au/">AMH</a></li>
+          
+            <li><a href="https://www.mimsonline.com.au.acs.hcn.com.au/">MIMS</a></li>
           
             <li><a href="http://www.pbs.gov.au/">PBS</a></li>
           
@@ -226,7 +234,11 @@
         
         <ul>
           
-            <li><a href="/">Overtime Form</a></li>
+            <li><a href="http://intranet/Pages/doctorsrosters.aspx">Doctors' Rosters</a></li>
+          
+            <li><a href="http://intranet/Departments/Emergency/Pages/Admin%20and%20Policies.aspx">ED Rosters</a></li>
+          
+            <li><a href="http://intranet/sites/infocentre/forms/Lists/JMS%20UNROSTERED%20OVERTIME%20CLAIM%20FORM/New.aspx?RootFolder=">Overtime Form</a></li>
           
         </ul>
         
@@ -242,7 +254,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="SVHM Directory">
+    <meta itemprop="headline" content="SVHM Directory (BETA)">
     
     
     
@@ -250,7 +262,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">SVHM Directory
+          <h1 id="page-title" class="page__title" itemprop="headline">SVHM Directory (BETA)
 </h1>
           
         </header>
@@ -258,21 +270,474 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="investigations">Investigations</h2>
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> By Specialty</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#doctors-rosters">Doctor’s Rosters</a></li>
+  <li><a href="#main">Main</a>
+    <ul>
+      <li><a href="#general">General</a></li>
+      <li><a href="#investigations">Investigations</a></li>
+      <li><a href="#radiology-forms">Radiology Forms</a></li>
+      <li><a href="#external-imaging-request">External Imaging Request</a></li>
+      <li><a href="#referrals-general">Referrals (General)</a></li>
+    </ul>
+  </li>
+  <li><a href="#by-unit">By Unit</a>
+    <ul>
+      <li><a href="#surgical">Surgical</a></li>
+      <li><a href="#cardiology">Cardiology</a></li>
+      <li><a href="#oncpall-caregem">Onc/Pall Care/GEM</a></li>
+    </ul>
+  </li>
+  <li><a href="#other">Other</a>
+    <ul>
+      <li><a href="#workforce">Workforce</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+  </li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="doctors-rosters">Doctor’s Rosters</h2>
 
 <table>
   <thead>
     <tr>
-      <th>Ix</th>
-      <th>Access</th>
-      <th>Note</th>
+      <th>Rosters</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+      <td><a href="http://intranet/Pages/doctorsrosters.aspx">ROSTERS HOMEPAGE</a></td>
+      <td>Link to Intranet Homepage of All Rosters</td>
+    </tr>
+    <tr>
+      <td><a href="file:///G:/Professional%20Groups/Medical%20&amp;%20Specialist%20Services/Public/Medical%20Services%20HMO%20and%20Registrar%20list%20CURRENT.xls">Medical Roster</a></td>
+      <td>HMO and Reg Rosters</td>
+    </tr>
+    <tr>
+      <td><a href="file:///G:/Professional%20Groups/Medical%20&amp;%20Specialist%20Services/Public/SURGICAL%20SERVICES%20HMO%20and%20Registrar%20list%20CURRENT.xls">Surgical Roster</a></td>
+      <td>HMO and Reg Rosters</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/Emergency/Pages/Admin%20and%20Policies.aspx">ED Roster</a></td>
+      <td>ED Roster Homepage</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.anaesthesia.org.au/rosters/login.php">Anaesthetics Roster</a></td>
+      <td>Anaesthesia Australia login</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Doctors%20Rosters/After%20Hours%20Roster.xlsx">AFTER HOURS</a></td>
+      <td>Ward Coverage After Hours Roster: Evenings, Weekends, Public Holidays</td>
+    </tr>
+    <tr>
+      <td>- <a href="file:///G:/Professional%20Groups/Medical%20&amp;%20Specialist%20Services/Public/GEN%20MED%20ROSTER%20CURRENT.xlsx">Gen Med</a></td>
+      <td>Gen Med After Hours Roster: Evenings, Weekends, Public Holidays</td>
+    </tr>
+    <tr>
+      <td>- <a href="file:///G:/Professional%20Groups/Medical%20&amp;%20Specialist%20Services/Public/SPECIALTY%20MED%20AH%20ROSTER%20CURRENT.xlsx">Specialty Med</a></td>
+      <td>Specialty Med After Hours Roster: Evenings, Weekends, Public Holidays</td>
+    </tr>
+    <tr>
+      <td>- <a href="file:///G:/Professional%20Groups/Medical%20&amp;%20Specialist%20Services/Public/GEM%20REHAB%20ACE%20AH%20ROSTER%202020.xlsx">GEM/Rehab After Hours</a></td>
+      <td>GEM/Rehab After Hours Roster: Evenings, Weekends, Public Holidays</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/POD/2016%20HMO%20Registrar%20Intern%20Allocation%20Rosters/AFTER%20HOURS%20COVER%20+%20FEVER%20CLINIC.xls">Fever Clinic</a></td>
+      <td>Fever Clinic and After Hours Roster</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/POD/2016%20HMO%20Registrar%20Intern%20Allocation%20Rosters/Master%20Roster%202020.xlsx">Master Roster</a></td>
+      <td>Master Roster of Rotations</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.findmyshift.com/">Daily Roster</a></td>
+      <td>Via Find My Shift</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="main">Main</h2>
+
+<h3 id="general">General</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>System</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://pas.intra.svhm.org.au/">PAS</a></td>
+      <td>Patient Access</td>
+    </tr>
+    <tr>
+      <td><a href="http://svhm-results/cis/cis.dll">deLacy</a></td>
+      <td>Order Pathology/Imaging (general), Add-on Pathology (if correct tube previously taken) <br /> <em>Note: Pathology can also be ordered/added-on using the paper pathology slip</em></td>
+    </tr>
+    <tr>
+      <td><a href="http://svhm-results/cis/cis.dll">CIS</a></td>
+      <td>View Pathology/Imaging</td>
+    </tr>
+    <tr>
+      <td><a href="http://mro.svhm.schs.org.au/udr/login/login.jsp">MRO</a></td>
+      <td>Access to patient scanned forms, previous admission documents, create electronic admissions</td>
+    </tr>
+    <tr>
+      <td><a href="http://business.svhm.schs.org.au/clinical/patientjourneyboard">Journey Board</a></td>
+      <td>Access to submit referrals to: Allied Health, ACAS, GEM, Rehab, Palliative Care</td>
+    </tr>
+    <tr>
+      <td><a href="https://svhm-paging/login.asp">Spok Paging</a></td>
+      <td>Internal Paging System</td>
+    </tr>
+    <tr>
+      <td><a href="http://svhm-dsu.svhm.schs.org.au/reportserver?/PAS_Documents_Reporting/OutstandingDocuments_Extract&amp;rs:Command=Render&amp;rs:ClearSession=true">Discharge Summaries</a></td>
+      <td>Summary of incomplete discharge summaries by unit</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="investigations">Investigations</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Investigation</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://svhm-results/cis/cis.dll">General (via deLacy)</a></td>
+      <td>General Imaging Requests (eg. X-Ray, Ultrasound, CT)</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/sites/infocentre/forms/Lists/CIU%20Test%20Request%20Form/NewForm.aspx?RootFolder=">Echocardiogram</a></td>
+      <td>CIU Request Form for: ECHO (TTE, TOE, stress), stress ECG, PPM/ICD check, Holter</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/sites/infocentre/forms/Lists/EEGReferral%20Form/NewForm.aspx?RootFolder=">EEG/NCS</a></td>
+      <td>Neurophysiology Request Form for: EEG, Nerve Conduction Studies <br /> To view results: Access Via MRO → Diagnostics</td>
+    </tr>
+    <tr>
+      <td>CTCA</td>
+      <td>Call: St V Private → Ask for Radiology/CT (requires radiologist approval)</td>
+    </tr>
+    <tr>
+      <td>MRI</td>
+      <td>Paper: Navy A4 page + <a href="http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf">Safety Questionnaire</a>) <br /> If urgent, call the Radiology Reg (MRI Fellow) or Nurse Reception</td>
+    </tr>
+    <tr>
+      <td>DEXA</td>
+      <td>Paper: Brown CMMI Form</td>
+    </tr>
+    <tr>
+      <td>Scope</td>
+      <td>Paper: Orange A4 Form + Consent Form</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="radiology-forms">Radiology Forms</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Form</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf">MRI Safety Questionnarie</a></td>
+      <td>MRI Inpatient Safety Questionnaire</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf">Diagnostic Referral</a></td>
+      <td>Medical Imaging Diagnostic Referral</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf">Interventional Referral</a></td>
+      <td>Medical Imaging Interventional Referral</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/MedicalImaging/Documents/PET%20Referral.pdf">PET Referral</a></td>
+      <td>For PET Requests</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="external-imaging-request">External Imaging Request</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Form</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://intranet/Eforms/Information%20Services/PACS_Scanning_Printing_Request_Form.pdf">CD (PDF)</a></td>
+      <td>Complete and fax this form for imaging on a CD</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/MedicalImaging/Documents/SVHM%20Private%20Image%20Transfer%20Request%20v%201.pdf">Regional Imaging (PDF)</a></td>
+      <td>Complete and fax this form for imaging requests from: MIA, iMED, Bendigo Health <br /> <em>Note: may need to call 1300 147 852 to have access prior to faxing form</em></td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/Departments/MedicalImaging/Documents/Fuji_Mix_Image_Transfer_Request_FormAA.pdf">MiX Transfer (PDF)</a></td>
+      <td>Complete and fax this form for imaging requests from non-regional hospitals</td>
+    </tr>
+    <tr>
+      <td>St V Private</td>
+      <td>For access to imaging from St Vincent’s Private <br /> Call SVPH directly and ask to merge</td>
+    </tr>
+    <tr>
+      <td><a href="https://pacs.miavictoria.com.au/Portal/app">SVHM MIA Access</a></td>
+      <td>For access to SVHM’s MIA Account</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="referrals-general">Referrals (General)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Referral</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://business.svhm.schs.org.au/clinical/patientjourneyboard">Allied Health/ACAS/GEM/Rehab</a></td>
+      <td>Add eConsult via Patient Journey Board</td>
+    </tr>
+    <tr>
+      <td>SVHM Outpatient Clinic Referral</td>
+      <td>Paper: Red ‘Consultation Referral’ form</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="by-unit">By Unit</h2>
+
+<h3 id="surgical">Surgical</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Referral</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Acute Pain Service</td>
+      <td>Call via Switch for APS Registrar on call</td>
+    </tr>
+    <tr>
+      <td>Chronic Pain Service</td>
+      <td>Paper: Red border referral form faxed to Chronic Pain Centre</td>
+    </tr>
+    <tr>
+      <td>Emergency theatre booking</td>
+      <td>Complete via PAS: Lists and Views → New Request</td>
+    </tr>
+    <tr>
+      <td><a href="http://apps.intra.svhm.org.au/sharepoint/icu.asp">HDU/ICU Bed Request</a></td>
+      <td>Online request form for HDU bed requests</td>
+    </tr>
+    <tr>
+      <td>Short Term Admission Form</td>
+      <td>Paper: Blue Short Term Admission Form</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cardiology">Cardiology</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cardiology</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://sdc-prosolv/prosolv/">Prosolv</a></td>
+      <td>View Echos and Angiograms images and reports</td>
+    </tr>
+    <tr>
+      <td><a href="https://cardiobase.svhanational.org.au/login.aspx">Cardiobase</a></td>
+      <td>View all ECHOs, Angiograms, Stress Tests and Outcomes of Case Conference discussions</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/sites/infocentre/forms/Lists/CIU%20Test%20Request%20Form/NewForm.aspx?RootFolder=">CIU Request Form</a></td>
+      <td>Online request form for: ECHO (TTE, TOE, stress), stress ECG, PPM/ICD check, Holter</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/sites/infocentre/forms/Lists/CIU%20Test%20Request%20Form/">CIU Request List</a></td>
+      <td>Check requests sent via the CIU Request Form</td>
+    </tr>
+    <tr>
+      <td><a href="http://intranet/sites/infocentre/forms/Lists/CardiologyHeart%20Centre%20Clinic%20Request/NewForm.aspx?RootFolder=">Heart Centre</a></td>
+      <td>Online request form for outpatient referrals to Heart Centre (ie. Heart Failure Clinic, IHD Clinic)</td>
+    </tr>
+    <tr>
+      <td><a href="http://svha-dw-dr-01.svhanational.org.au/Reports/Pages/Report.aspx?ItemPath=%2fSVHM%2fCath_Lab_Activity">Cath Lab List</a></td>
+      <td>Daily List of Elective Cath Lab patients</td>
+    </tr>
+    <tr>
+      <td><a href="https://edwardx.com/cardiacrehab">Cardiac Rehab Locator</a></td>
+      <td>Locate the nearest cardiac rehab centre to a patient’s address (in Victoria). MUST then be added to ‘Recipients’ list in the DC summary <br /> <em>Note: this is NOT an official program, was written by myself</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="oncpall-caregem">Onc/Pall Care/GEM</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Forms</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NUCOG</td>
+      <td>Access form via MRO: <em>Patient UR</em> → Cover → Forms → NUCOG</td>
+    </tr>
+    <tr>
+      <td>CCH Admission</td>
+      <td>Access via PAS: Labels and Forms → CCH Admission assessment</td>
+    </tr>
+    <tr>
+      <td>EOLC Pathway</td>
+      <td>Access form via MRO: <em>Patient UR</em> → Cover → Forms → Care Plan for the Dying Person Victoria</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.bdm.vic.gov.au/service-partners/medical-practitioners">Death Certification</a></td>
+      <td>For NON-REPORTABLE deaths only <br /> Reportable deaths must be sent to the Coroner’s instead</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Referrals</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://business.svhm.schs.org.au/clinical/patientjourneyboard">Palliative Care</a></td>
+      <td>Referral to Palliative Care <br /> In addition, please page/call the Pall Care Referrals Reg</td>
+    </tr>
+    <tr>
+      <td>Psych-Onc Referral</td>
+      <td>Email Psych-Onc team (search via Outlook)</td>
+    </tr>
+    <tr>
+      <td>Radiation Oncology</td>
+      <td>Paper: Referral Form to Genesis Healthcare</td>
+    </tr>
+    <tr>
+      <td>Cancer Centre O/P</td>
+      <td>Email Cancer Centre Reception (search via Outlook)</td>
+    </tr>
+    <tr>
+      <td>St George’s Registrar Clinic</td>
+      <td>Print referral form via MRO: <em>Patient UR</em> → Cover → Forms → Referral SACS <br /> For patients requiring referral to St George’s Registrar Clinic</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.pallcarevic.asn.au/">Community Palliative Care</a></td>
+      <td>Directory for Community Palliative Care Fax Numbers</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="other">Other</h2>
+
+<h3 id="workforce">Workforce</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Program</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="http://intranet/sites/infocentre/forms/Lists/JMS%20UNROSTERED%20OVERTIME%20CLAIM%20FORM/New.aspx?RootFolder=">Overtime Form</a></td>
+      <td>Use this online form to claim unrostered overtime</td>
+    </tr>
+    <tr>
+      <td>Employee Health Connect</td>
+      <td>Call 1800 440 339 to notify of any sick leave</td>
+    </tr>
+    <tr>
+      <td><a href="https://wd3.myworkday.com/svha/d/home.htmld">Workday</a></td>
+      <td>View payslips, online learning, update personal information</td>
+    </tr>
+    <tr>
+      <td><a href="https://stvincents.wfm.poit.com/wfc/logon">Kronos</a></td>
+      <td>Connect to Kronos time to view and manage your timesheet rosters</td>
+    </tr>
+    <tr>
+      <td><a href="https://outlook.office365.com/">Outlook</a></td>
+      <td>Connect to your SVHM email via Outlook</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="resources">Resources</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www2.health.vic.gov.au/clinicianshealthchannel">Clinicians’ Health Channel</a></td>
+      <td>Access (sign up required)</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.uptodate.com/">UpToDate</a></td>
+      <td>Access to UpToDate: evidence-based clinical resource</td>
+    </tr>
+    <tr>
+      <td><a href="https://tgldcdp.tg.org.au.acs.hcn.com.au/etgAccess">eTG</a></td>
+      <td>eTherapeutic Guidelines - via Clinicians’ Health Channel</td>
+    </tr>
+    <tr>
+      <td><a href="https://amhonline.amh.net.au.acs.hcn.com.au/">AMH</a></td>
+      <td>Access to Australian Medicines Handbook: evidence-based medicines reference  - via Clinicians’ Health Channel</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.mimsonline.com.au.acs.hcn.com.au/">MIMS</a></td>
+      <td>Access to MIMS Online: medicine information, product images and consumer medicine information - via Clinicians’ Health Channel</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.pbs.gov.au/">PBS</a></td>
+      <td>Pharmaceutical Benefits Scheme (PBS) - for quantities, costs and streamlined Authority Numbers <br /> For Non-Streamlined medications: please call 1800 888 333</td>
     </tr>
   </tbody>
 </table>

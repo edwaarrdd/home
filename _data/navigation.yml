@@ -1,8 +1,8 @@
 main:
   - title: "about"
     url: /about/
-  - title: "blog"
-    url: /
+  # - title: "blog"
+  #   url: /
   # - title: "my journey"
   #   url: /journeys/
   - title: "projects"
@@ -14,30 +14,45 @@ main:
 
 
 svhm:
-  - title: Request
-    children:
-      - title: "Pathology"
-        url: /
-      - title: "TTE"
-        url: /
-      - title: "Stress ECG/Echo"
-        url: /
-      - title: "Respiratory Function Test"
-        url: /
-      - title: "EEG/Nerve"
+  - title: General
+    children: 
+      - title: "PAS"
+        url: http://pas.intra.svhm.org.au/
+      - title: "CIS"
+        url: http://svhm-results/cis/cis.dll
+      - title: "deLacy"
+        url: https://delacy-svhm-prod.svha.org.au/ehs/ehsServlet
+      - title: "ProSolv"
+        url: http://sdc-prosolv/prosolv/
+      - title: "MRO"
+        url: http://mro.svhm.schs.org.au/udr/login/login.jsp
+      - title: "Patient Journeyboard"
+        url: http://business.svhm.schs.org.au/clinical/patientjourneyboard
   - title:
     children:
+      - title: "Spok Paging"
+        url: https://svhm-paging/login.asp
       - title: "Discharge Summary List"
-        url: /
+        url: http://svhm-dsu.svhm.schs.org.au/reportserver?/PAS_Documents_Reporting/OutstandingDocuments_Extract&rs:Command=Render&rs:ClearSession=true
   - title: Resources
     children:
-      - title: "eTG"
-        url: https://tgldcdp.tg.org.au.acs.hcn.com.au/etgAccess
+      - title: "Clinicians' Health Channel"
+        url: https://www2.health.vic.gov.au/clinicianshealthchannel
       - title: "UpToDate"
         url: http://www.uptodate.com/
+      - title: "eTG"
+        url: https://tgldcdp.tg.org.au.acs.hcn.com.au/etgAccess
+      - title: "AMH"
+        url: https://amhonline.amh.net.au.acs.hcn.com.au/
+      - title: "MIMS"
+        url: https://www.mimsonline.com.au.acs.hcn.com.au/
       - title: "PBS"
         url: http://www.pbs.gov.au/
   - title: Workforce
     children:
+      - title: "Doctors' Rosters"
+        url: http://intranet/Pages/doctorsrosters.aspx
+      - title: "ED Rosters"
+        url: http://intranet/Departments/Emergency/Pages/Admin%20and%20Policies.aspx
       - title: "Overtime Form"
-        url: /
+        url: http://intranet/sites/infocentre/forms/Lists/JMS%20UNROSTERED%20OVERTIME%20CLAIM%20FORM/New.aspx?RootFolder=
