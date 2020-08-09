@@ -33,13 +33,13 @@ toc_sticky: true
 
 | System | Description |
 | --- | --- |
-| [PAS](http://pas.intra.svhm.org.au/) | Patient Access |
+| [PAS](http://pas.intra.svhm.org.au/) | Access to Patient Database - MRO, GEB, Vulcan can be accessed via PAS |
 | [deLacy](http://svhm-results/cis/cis.dll) | Order Pathology/Imaging (general), Add-on Pathology (if correct tube previously taken) <br> *Note: Pathology can also be ordered/added-on using the paper pathology slip* |
 | [CIS](http://svhm-results/cis/cis.dll) | View Pathology/Imaging |
 | [MRO](http://mro.svhm.schs.org.au/udr/login/login.jsp) | Access to patient scanned forms, previous admission documents, create electronic admissions |
 | [Journey Board](http://business.svhm.schs.org.au/clinical/patientjourneyboard) | Access to submit referrals to: Allied Health, ACAS, GEM, Rehab, Palliative Care |
-| [Spok Paging](https://svhm-paging/login.asp) | Internal Paging System |
-| [Discharge Summaries](http://svhm-dsu.svhm.schs.org.au/reportserver?/PAS_Documents_Reporting/OutstandingDocuments_Extract&rs:Command=Render&rs:ClearSession=true) | Summary of incomplete discharge summaries by unit |
+| [Spok Paging](https://svhm-paging/login.asp) | Link to the Internal Paging System |
+| [Discharge Summaries](http://svhm-dsu.svhm.schs.org.au/reportserver?/PAS_Documents_Reporting/OutstandingDocuments_Extract&rs:Command=Render&rs:ClearSession=true) | Link to Summary of incomplete discharge summaries (by unit) |
 
 ### Investigations
 
@@ -48,19 +48,19 @@ toc_sticky: true
 | [General (via deLacy)](http://svhm-results/cis/cis.dll) | General Imaging Requests (eg. X-Ray, Ultrasound, CT) |
 | [Echocardiogram](http://intranet/sites/infocentre/forms/Lists/CIU%20Test%20Request%20Form/NewForm.aspx?RootFolder=) | CIU Request Form for: ECHO (TTE, TOE, stress), stress ECG, PPM/ICD check, Holter |
 | [EEG/NCS](http://intranet/sites/infocentre/forms/Lists/EEGReferral%20Form/NewForm.aspx?RootFolder=) | Neurophysiology Request Form for: EEG, Nerve Conduction Studies <br> To view results: Access Via MRO &rarr; Diagnostics |
-| CTCA | Call: St V Private &rarr; Ask for Radiology/CT (requires radiologist approval) |
-| MRI | Paper: Navy A4 page + [Safety Questionnaire](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) <br> If urgent, call the Radiology Reg (MRI Fellow) or Nurse Reception |
-| DEXA | Paper: Brown CMMI Form |
-| Scope | Paper: Orange A4 Form + Consent Form |
+| CTCA | Request via Call: St V Private &rarr; Ask for Radiology/CT (requires radiologist approval) |
+| MRI | Request via Paper: Navy A4 page + [Safety Questionnaire](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) <br> If urgent, call the Radiology Reg (MRI Fellow) or Nurse Reception |
+| DEXA | Request via Paper: Brown CMMI Form |
+| Scope | Request via Paper: Orange A4 Form + Consent Form |
 
 ### Radiology Forms
 
-| Form | Description |
+| Form | Description |s
 | --- | --- |
 | [MRI Safety Questionnarie](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) | MRI Inpatient Safety Questionnaire |
-| [Diagnostic Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Medical Imaging Diagnostic Referral |
-| [Interventional Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Medical Imaging Interventional Referral |
-| [PET Referral](http://intranet/Departments/MedicalImaging/Documents/PET%20Referral.pdf) | For PET Requests |
+| [Diagnostic Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Link to PDF of Medical Imaging Diagnostic Referral Form |
+| [Interventional Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Link to PDF of Medical Imaging Interventional Referral Form |
+| [PET Referral](http://intranet/Departments/MedicalImaging/Documents/PET%20Referral.pdf) | Link to PDF for PET Request Form |
 
 ### External Imaging Request
 
