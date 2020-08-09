@@ -15,8 +15,8 @@ toc_sticky: true
 | Rosters | Description |
 | --- | --- |
 | [ROSTERS HOMEPAGE](http://intranet/Pages/doctorsrosters.aspx) | Link to Intranet Homepage of All Rosters |
-| [Medical Roster](file:///G:/Professional%20Groups/Medical%20&%20Specialist%20Services/Public/Medical%20Services%20HMO%20and%20Registrar%20list%20CURRENT.xls) | HMO and Reg Rosters|
-| [Surgical Roster](file:///G:/Professional%20Groups/Medical%20&%20Specialist%20Services/Public/SURGICAL%20SERVICES%20HMO%20and%20Registrar%20list%20CURRENT.xls) | HMO and Reg Rosters |
+| [Medical Roster](file:///G:/Professional%20Groups/Medical%20&%20Specialist%20Services/Public/Medical%20Services%20HMO%20and%20Registrar%20list%20CURRENT.xls) | Medical HMO and Reg Rosters|
+| [Surgical Roster](file:///G:/Professional%20Groups/Medical%20&%20Specialist%20Services/Public/SURGICAL%20SERVICES%20HMO%20and%20Registrar%20list%20CURRENT.xls) | Surgical HMO and Reg Rosters |
 | [ED Roster](http://intranet/Departments/Emergency/Pages/Admin%20and%20Policies.aspx) | ED Roster Homepage |
 | [Anaesthetics Roster](http://www.anaesthesia.org.au/rosters/login.php) | Anaesthesia Australia login |
 | [AFTER HOURS](http://intranet/Doctors%20Rosters/After%20Hours%20Roster.xlsx) | Ward Coverage After Hours Roster: Evenings, Weekends, Public Holidays  |
@@ -49,7 +49,7 @@ toc_sticky: true
 | [Echocardiogram](http://intranet/sites/infocentre/forms/Lists/CIU%20Test%20Request%20Form/NewForm.aspx?RootFolder=) | CIU Request Form for: ECHO (TTE, TOE, stress), stress ECG, PPM/ICD check, Holter |
 | [EEG/NCS](http://intranet/sites/infocentre/forms/Lists/EEGReferral%20Form/NewForm.aspx?RootFolder=) | Neurophysiology Request Form for: EEG, Nerve Conduction Studies <br> To view results: Access Via MRO &rarr; Diagnostics |
 | CTCA | Call: St V Private &rarr; Ask for Radiology/CT (requires radiologist approval) |
-| MRI | Paper: Navy A4 page + [Safety Questionnaire](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf)) <br> If urgent, call the Radiology Reg (MRI Fellow) or Nurse Reception |
+| MRI | Paper: Navy A4 page + [Safety Questionnaire](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) <br> If urgent, call the Radiology Reg (MRI Fellow) or Nurse Reception |
 | DEXA | Paper: Brown CMMI Form |
 | Scope | Paper: Orange A4 Form + Consent Form |
 
@@ -60,7 +60,7 @@ toc_sticky: true
 | [MRI Safety Questionnarie](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) | MRI Inpatient Safety Questionnaire |
 | [Diagnostic Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Medical Imaging Diagnostic Referral |
 | [Interventional Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Medical Imaging Interventional Referral |
-| [PET Referral](http://intranet/Departments/MedicalImaging/Documents/PET%20Referral.pdf) |  For PET Requests |
+| [PET Referral](http://intranet/Departments/MedicalImaging/Documents/PET%20Referral.pdf) | For PET Requests |
 
 ### External Imaging Request
 
