@@ -25,7 +25,7 @@ toc_sticky: true
 | - [GEM/Rehab After Hours](file:///G:/Professional%20Groups/Medical%20&%20Specialist%20Services/Public/GEM%20REHAB%20ACE%20AH%20ROSTER%202020.xlsx)| GEM/Rehab After Hours Roster: Evenings, Weekends, Public Holidays |
 | [Fever Clinic](http://intranet/Departments/POD/2016%20HMO%20Registrar%20Intern%20Allocation%20Rosters/AFTER%20HOURS%20COVER%20+%20FEVER%20CLINIC.xls) | Fever Clinic and After Hours Roster |
 | [Master Roster](http://intranet/Departments/POD/2016%20HMO%20Registrar%20Intern%20Allocation%20Rosters/Master%20Roster%202020.xlsx) | Master Roster of Rotations |
-| [Daily Roster](http://www.findmyshift.com/) | Via Find My Shift |
+| [Daily Roster](http://www.findmyshift.com/) | Via Find My Shift (accessible from home) |
 
 ## Main
 
@@ -57,7 +57,7 @@ toc_sticky: true
 
 | Form | Description |s
 | --- | --- |
-| [MRI Safety Questionnarie](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) | MRI Inpatient Safety Questionnaire |
+| [MRI Safety Questionnaire](http://intranet/Departments/MedicalImaging/Documents/MRI%20Patient%20Safety%20Questionnaire.pdf) | MRI Inpatient Safety Questionnaire |
 | [Diagnostic Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Link to PDF of Medical Imaging Diagnostic Referral Form |
 | [Interventional Referral](http://intranet/Departments/MedicalImaging/Documents/Medical%20Imaging%20Diagnostic%20Referral.pdf) | Link to PDF of Medical Imaging Interventional Referral Form |
 | [PET Referral](http://intranet/Departments/MedicalImaging/Documents/PET%20Referral.pdf) | Link to PDF for PET Request Form |
