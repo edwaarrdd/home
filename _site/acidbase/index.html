@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Acid Base - Fencl-Stewart Approach | Edward Xu</title>
+<!-- begin _includes/seo.html --><title>Acid Base Interpreter | Edward Xu</title>
 <meta name="description" content="">
 
 
@@ -19,7 +19,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_GB">
 <meta property="og:site_name" content="Edward Xu">
-<meta property="og:title" content="Acid Base - Fencl-Stewart Approach">
+<meta property="og:title" content="Acid Base Interpreter">
 <meta property="og:url" content="http://localhost:4000/acidbase/">
 
 
@@ -256,7 +256,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Acid Base - Fencl-Stewart Approach">
+    <meta itemprop="headline" content="Acid Base Interpreter">
     
     
     
@@ -264,7 +264,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Acid Base - Fencl-Stewart Approach
+          <h1 id="page-title" class="page__title" itemprop="headline">Acid Base Interpreter
 </h1>
           
         </header>
@@ -273,6 +273,9 @@
       <section class="page__content" itemprop="text">
         
         <style>
+    p {
+        text
+    }
     label {
         float: left;
     }
@@ -282,53 +285,56 @@
         padding: 0 4px 0 6px;
     }
     input {
-        width: 30%;
+        width: 60%;
     }
-    .input {
-        display: flex;
+    #textspace #chartspace{
+        overflow: hidden;
+        width: 100%;
     }
-    .left {
-        flex: 50%;
+    #input {
+        float:left;
+        width: 50%;
     }
-    .right {
-        flex: 50%;
+    #output {
+        float: left;
+        width: 50%;
     }
 </style>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <h2 id="acid-base-interpretation-fencl-stewart-approach">Acid Base Interpretation: Fencl-Stewart Approach</h2>
 <p>The Fencl-Stewart Approach is a method of interpreting blood gases that allows you to identiffy the metabolic abnormalities occurring. For more information, you can read more about it in <a href="https://pubmed.ncbi.nlm.nih.gov/14665553/">this paper</a>.</p>
 
-<div id="input">
-    <div id="left">
-        <label for="sodium">Sodium (Na+)
+<div id="textspace">
+    <div id="input">
+        <label for="sodium">Sodium
         </label>
         <span><input type="number" id="sodium" class="acidbase" name="sodium" required="" /></span><br />
-        <label for="potassium">Potassium (K+)
+        <label for="potassium">Potassium
         </label>
         <span><input type="number" id="potassium" class="acidbase" name="potassium" required="" /></span><br />
-        <label for="chloride:">Chloride (Cl-)
+        <label for="chloride:">Chloride
         </label>
+        <span><input type="number" id="chloride" class="acidbase" name="chloride" required="" /></span><br />
+        <label for="baseexcess">Base Excess
+        </label>
+        <span><input type="number" id="baseexcess" class="acidbase" name="baseexcess" required="" /></span><br />
+        <label for="lactate">Lactate
+        </label>
+        <span><input type="number" id="lactate" class="acidbase" name="lactate" required="" /></span><br />
+        <label for="albumin">Albumin
+        </label>
+        <span><input type="number" id="albumin" class="acidbase" name="albumin" required="" /></span><br />
+        <button onclick="getValues()">Submit</button>
     </div>
-    <div id="right">
-    <span><input type="number" id="chloride" class="acidbase" name="chloride" required="" /></span><br />
-    <label for="baseexcess">Base Excess
-    </label>
-    <span><input type="number" id="baseexcess" class="acidbase" name="baseexcess" required="" /></span><br />
-    <label for="lactate">Lactate
-    </label>
-    <span><input type="number" id="lactate" class="acidbase" name="lactate" required="" /></span><br />
-    <label for="albumin">Albumin
-    </label>
-    <span><input type="number" id="albumin" class="acidbase" name="albumin" required="" /></span><br />
-    <button onclick="getValues()">Submit</button>
+    <div id="output">
+        <div id="explanation"></div>
+        <div id="summation"></div><br />
     </div>
 </div>
-<p><br /></p>
-<div id="output">
-    <div id="explanation"></div>
-    <div id="summation"></div><br />
-    <div id="summary"></div>
-</div>
+<div id="summary"></div>
+<div id="chart"></div>
 <script type="text/javascript" src="../scripts/fenclstewart.js"></script>
 
 
