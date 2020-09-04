@@ -11,7 +11,7 @@ permalink: /acidbase/
     label {
         float: left;
     }
-    span {
+    .acidbase {
         display: block;
         overflow: hidden;
         padding: 0 4px 0 6px;

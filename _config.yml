@@ -21,6 +21,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/edwaarrdd"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCfnTVI8ys6pldLI5PsSwiKg"
 include:
   - _pages
 github: [metadata]
