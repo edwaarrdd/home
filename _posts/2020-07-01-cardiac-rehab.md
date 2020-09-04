@@ -4,7 +4,7 @@ title: "Cardiac Rehab Finder"
 categories: programming
 ---
 
-Automatically find the closest cardiac rehab centre (in Victoria) to a patient’s address.
+Find the closest cardiac rehab centre (in Victoria) to a patient’s address.
 
 ## How to use it?
 

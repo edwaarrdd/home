@@ -3,6 +3,13 @@ title: Programming Projects
 layout: single
 permalink: /projects/
 feature_row1:
+  - image_path: /assets/images/svhm_thumbnail.png
+    alt: 'SVHM Directory'
+    title: 'SVHM Directory'
+    excerpt: "Streamlined directory for navigating the SVHM Intranet and software programs. <br> Click **[here](/acidbase/)** to view the project."
+    url: '/programming/2020/08/09/svhm.html/'
+    btn_label: 'Read More'
+    btn_class: 'btn--primary'
   - image_path: /assets/images/cardiacrehab_thumbnail.jpg
     alt: 'Cardiac Rehab Centres'
     title: 'Cardiac Rehab Centres (VIC)'
