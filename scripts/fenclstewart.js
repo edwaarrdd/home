@@ -99,7 +99,7 @@ function albuminDerangement(albumin_excess) {
         summary_processes.push("There is a metabolic alkalosis from albumin");
     }
     else {
-        summation_processes.push("Albumin Effect accounts for 0");
+        summation_processes.push("Albumin Effect: 0");
     }
 };
 
