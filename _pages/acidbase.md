@@ -35,7 +35,7 @@ permalink: /acidbase/
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 
 ## Acid Base Interpretation: Fencl-Stewart Approach
-The Fencl-Stewart Approach is a method of interpreting blood gases that allows you to identiffy the metabolic abnormalities occurring. For more information, you can read more about it in [this paper](https://pubmed.ncbi.nlm.nih.gov/14665553/).
+The Fencl-Stewart Approach is a method of interpreting blood gases that allows you to identify the various metabolic abnormalities occurring. For more information, check out [this paper](https://pubmed.ncbi.nlm.nih.gov/14665553/).
 
 <div id="textspace">
     <div id="input">

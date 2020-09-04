@@ -7,7 +7,7 @@ feature_row1:
     alt: 'Cardiac Rehab Centres'
     title: 'Cardiac Rehab Centres (VIC)'
     excerpt: "Find the closest cardiac rehab centre in Victoria (AUS) to your patient. <br> Click **[here](/cardiacrehab/)** to view the project."
-    url: '/programming/2019/07/01/cardiac-rehab.html/'
+    url: '/programming/2020/07/01/cardiac-rehab.html/'
     btn_label: 'Read More'
     btn_class: 'btn--primary'
 
