@@ -10,7 +10,7 @@ feature_row1:
     url: '/programming/2020/07/01/cardiac-rehab.html/'
     btn_label: 'Read More'
     btn_class: 'btn--primary'
-  - image_path: /assets/images/acidbase_thumbnail.jpg
+  - image_path: /assets/images/acidbase_thumbnail.png
     alt: 'Acid Base Interpreter'
     title: 'Acid Base Interpreter: Fencl-Stewart Approach'
     excerpt: "Interpret blood gases using the Fencl Stewart Approach (with interactive graphs). <br> Click **[here](/acidbase/)** to view the project."
