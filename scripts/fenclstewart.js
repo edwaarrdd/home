@@ -110,12 +110,20 @@ function calculateUnmeasured(sodium, potassium, chloride, baseexcess, lactate_ef
     var sum_effect = chloride_effect - lactate_effect + albumin_effect;
     var unmeasured = baseexcess - sum_effect;
     summation_processes.push(`Sum Effect: ${sum_effect}`);
-    if (unmeasured < 0) {
+    if (unmeasured <= 3 && unmeasured >= -3) {
+        summation_processes.push("This matches the base excess");
+        
+    }
+    else if (unmeasured < 0) {
         summation_processes.push(`<br> As Measured Base Effect: ${baseexcess}, and Sum Effect: ${sum_effect}, ${unmeasured} is unaccounted for.`)
         summation_processes.push("Therefore, another metabolic acidosis is occurring - likely explained by unmeasured ions.");
         summary_processes.push("There is a metabolic acidosis likely from ketones, toxic alcohol, etc")
     }
-    else summation_processes.push("This matches the base excess");
+    else {
+        summation_processes.push(`<br> As Measured Base Effect: ${baseexcess}, and Sum Effect: ${sum_effect}, ${unmeasured} is unaccounted for.`)
+        summation_processes.push("Therefore, another metabolic alkalosis is occurring - likely an independent excess of bicarbonate (rare).");
+        summary_processes.push("There is a metabolic alkalosis likely from independent excess of bicarbonate")
+    }
 };
 
 function calculateSid(sodium, potassium, chloride) {
