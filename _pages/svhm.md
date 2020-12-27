@@ -97,6 +97,7 @@ toc_sticky: true
 | Epworth | 9426 6570 | 9429 9075 |
 | Frankston | 9784 7446 | 9748 7818 |
 | Freemasons | 9483 3690 | 9483 3350 |
+| GVH Shepparton | 5832 2299 | 5832 2304 |
 | Hamilton Base | 5551 8311 | 5551 8240 |
 | John Fawkner | 9385 2451 <br> 9385 2400 [*alt*] | 9385 2188 |
 | Knox | 9210 7070 | 9210 7073 |
@@ -120,6 +121,13 @@ toc_sticky: true
 | Western - Sunshine | 8345 6353 | 8345 1648 |
 | Western - Footscray | 8345 6353 | 8345 6337 |
 
+### Pathology
+| Pathology Centre | Phone Number |
+| --- | --- |
+| Dorevitch | 9244 0444 |
+| Clinical Labs | 1300 134 111 |
+| Melbourne Pathology | 9287 7777 |
+| 4cyte Pathology | 13 42 98 |
 
 ## By Unit
 
