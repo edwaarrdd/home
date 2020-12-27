@@ -124,7 +124,7 @@ toc_sticky: true
 ### Pathology
 | Pathology Centre | Phone Number |
 | --- | --- |
-| Dorevitch | 9244 0444 |
+| Dorevitch | 9244 0472 |
 | Clinical Labs | 1300 134 111 |
 | Melbourne Pathology | 9287 7777 |
 | 4cyte Pathology | 13 42 98 |
